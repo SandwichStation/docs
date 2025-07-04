@@ -42,10 +42,9 @@ level = 1
 [output.html.playground]
 runnable = false
 
-##Temp disable till whole wiki is sanitized
-#[output.linkcheck]
-#traverse-parent-directories = false
-#warning-policy = "ignore" # Warnings break the action, no reason to do that, so disabled...
+[output.linkcheck]
+traverse-parent-directories = false
+warning-policy = "ignore" # Warnings break the action, no reason to do that, so disabled...
 
 # Redirects
 # These are used to map between old Wiki.js links and current docs site links,
