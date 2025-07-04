@@ -37,7 +37,7 @@ enable = false
 
 [output.html.fold]
 enable = true
-level = 1
+level = 0 #How many levels to open by default
 
 [output.html.playground]
 runnable = false
