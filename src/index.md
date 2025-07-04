@@ -21,5 +21,5 @@ This page is a work in progress! Some information may be incomplete or outdated.
 
 #### There are other repositories that do not have as many priority issues to work on. If you are still curious about them, they are here:
 * [SandwichStation Docker](https://github.com/SandwichStation/SandwichStation-Docker) is the backend container running our server.
+* [SandwichStation Wiki](https://github.com/SandwichStation/wiki) this is the crew wiki.
 * [SandwichStation Docs](https://github.com/SandwichStation/docs) this is the page your currently reading :wave:
-
