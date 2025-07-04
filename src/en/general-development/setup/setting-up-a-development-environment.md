@@ -39,7 +39,7 @@ Are you stuck? Don't understand how to do a certain part? This video should help
 
 This video is intended to be followed *along with the guide* and may become out of date.
 
-{% embed youtube id="EUGl_zNS6Uk?t=3" loading="lazy" %}
+[The video on youtube](https://www.youtube.com/watch?v=EUGl_zNS6Uk?t=3)
 
 ## 1. Cloning
 
