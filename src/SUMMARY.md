@@ -15,3 +15,8 @@ Uncategorized
 ===================
 
 - [Codebase Organization](en/general-development/codebase-info/codebase-organization.md)
+
+How to Contribute
+===================
+
+- [Guide to Editing Docs](en/meta/guide-to-editing-docs.md)
