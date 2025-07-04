@@ -416,3 +416,7 @@ FodyWeavers.xsd
 *.msix
 *.msm
 *.msp
+
+##########################################################
+# End of "Default" .gitignore for Visual Studio template #
+##########################################################
