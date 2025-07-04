@@ -25,3 +25,4 @@ jobs:
           show-changed-files: "true"
           show-commit-author: "true"
           show-commit-link: "true"
+          show-commit-branch: "false"
