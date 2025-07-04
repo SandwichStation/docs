@@ -60,7 +60,7 @@ First, let's make our own remote repository fork of Space Station 14. You'll nee
 
 Your remote repository doesn't automatically update with changes from the original SS14 repo--you'll have to do that yourself, which I'll talk about later.
 
-Navigate to the [Space Station 14 repository](https://github.com/space-wizards/space-station-14) and click here:
+Navigate to the [Sandwich Station repository](https://github.com/SandwichStation/SandwichStation) and click here:
 
 ![](https://i.imgur.com/lAHNHdD.png)
 
@@ -106,7 +106,7 @@ Right click:
 
 <hr>
 
-Then, we'll enter the command for cloning **our** remote repository--not the `space-wizards/space-station-14` repository.
+Then, we'll enter the command for cloning **our** remote repository--not the `SandwichStation/SandwichStation` repository.
 
 <details><summary>TortoiseGit</summary>
 <p>
@@ -133,7 +133,7 @@ Then, we'll enter the command for cloning **our** remote repository--not the `sp
 ![](https://i.imgur.com/Xn4AQLf.png)
 
 Then **c**hange **d**irectory using:
-``cd space-station-14`` 
+``cd SandwichStation`` 
 
 (This may be different if you cloned another fork, it's almost always being the same as the repository name)
 
@@ -166,9 +166,9 @@ If you ever need to manually update RobustToolbox for whatever reason you can us
 
 When you cloned your remote repository, a **remote** was automatically added to your local repository. **Remotes** are just named URLs to remote repositories that Git keeps track of so you can do stuff like download (pull) new changes to the code or upload (push) code to your forked repository. 
 
-In this case, the remote automatically added is called`origin` and it points to `https://github.com/[username-here]/space-station-14` (or whatever you named the remote repository).
+In this case, the remote automatically added is called`origin` and it points to `https://github.com/[username-here]/SandwichStation` (or whatever you named the remote repository).
 
-One issue: we don't have a reference to the original `space-wizards/space-station-14` remote repository anywhere! How are we supposed to update our local repository without it? So let's make sure we've navigated inside our local repo's folder, and we'll add a new remote:
+One issue: we don't have a reference to the original `SandwichStation/SandwichStation` remote repository anywhere! How are we supposed to update our local repository without it? So let's make sure we've navigated inside our local repo's folder, and we'll add a new remote:
 
 <details><summary>TortoiseGit</summary>
 <p>
@@ -200,14 +200,14 @@ One issue: we don't have a reference to the original `space-wizards/space-statio
 
 <hr>
 
-All this does is add a new remote named `upstream` that points to the original `space-wizards/space-station-14` repository. Now we can receive updates from the main repository whenever we want! (see below on how to do that). 
+All this does is add a new remote named `upstream` that points to the original `SandwichStation/SandwichStation` repository. Now we can receive updates from the main repository whenever we want! (see below on how to do that). 
 
 The convention is to call the remote pointing to the original repository `upstream` but you can technically call it whatever you like. I'll be referring to it as 'the upstream', though, and it's terminology Git guides use as well.
 
 **Addendum for fork/downstream developers:** If a downstream repository you wish to contribute to is set up as a direct fork (IE: GitHub shows a "forked from" label underneath the repo's name), then you'll additionally want to add that fork as a remote (but if the fork isn't set up that way, you can ignore this). You can do this in a way similar to how you've added the upstream as a remote (just use the fork's GitHub link as the remote URL), but be sure to substitute the remote name of `upstream` with any name you deem appropriate. Your own fork does not have to be a fork of the downstream's fork for this; all that matters is that the commit history in the individual branches you push to your own remote line up with the commit history of wherever you're intending to PR your changes to.
 
 ```admonish warning title="Before working on your first PR to the space-wizards repo"
-Please make sure you read through the [Freezes & Restrictions](https://github.com/space-wizards/space-station-14/issues/8524) and ensure your idea does not fall into the freezes or if your PR requires some prerequisite before being made. 
+Please make sure you read through the [Freezes & Restrictions](https://github.com/SandwichStation/SandwichStation/issues/8524) and ensure your idea does not fall into the freezes or if your PR requires some prerequisite before being made. 
 ```
 
 ## 4. Branching & Commits
@@ -647,7 +647,7 @@ git branch -d another-feature
 Just for reference, here's a little glossary of Git concepts and terms explained in a little more detail, all in one place.
 
 - **'Branches'** are self-contained versions of the codebase that you can add commits to. The default branch is **master**, but you can make as many as you like.
-- **'Repositories'** are essentially just folders where you can use Git to make changes and keep track of changes made. Local repositories are repositories you have on your computer, and remote repositories are repositories that live on websites like [GitHub](https://github.com/space-wizards/space-station-14). Repositories are made up of a lot of branches.
+- **'Repositories'** are essentially just folders where you can use Git to make changes and keep track of changes made. Local repositories are repositories you have on your computer, and remote repositories are repositories that live on websites like [GitHub](https://github.com/SandwichStation/SandwichStation). Repositories are made up of a lot of branches.
 - **'Remotes'** are names for and links to remote repositories that your local repository can use.
 - **'Submodules'** are repositories that are located inside another repository.
 - **'Forks'** are repositories that are based on another repository. If you're going to make a pull request to the SS14 repo, you need to fork it first.
@@ -759,7 +759,7 @@ Go into your .git folder (hidden by default--may need to enable showing hidden f
 
 ```
 [remote "upstream"]
-	url = https://github.com/space-wizards/space-station-14
+	url = https://github.com/SandwichStation/SandwichStation
 	fetch = +refs/heads/*:refs/remotes/upstream/*
 ```
 
@@ -767,7 +767,7 @@ Add a line to this that reads `fetch = +refs/pull/*/head:refs/remotes/upstream/p
 
 ```
 [remote "upstream"]
-        url = https://github.com/space-wizards/space-station-14
+        url = https://github.com/SandwichStation/SandwichStation
         fetch = +refs/heads/*:refs/remotes/upstream/*
         fetch = +refs/pull/*/head:refs/remotes/upstream/pr/*
 ```
