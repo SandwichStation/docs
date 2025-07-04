@@ -3,8 +3,8 @@ authors = ["Sandwich Station"]
 language = "en"
 multilingual = false
 src = "src"
-title = "Sandwich Station Wiki"
-description = "Tutorial & reference wiki for all Sandwich Station projects"
+title = "Sandwich Station Docs"
+description = "Tutorial & reference wiki for all Sandwich Station devs"
 
 [preprocessor.mermaid]
 
