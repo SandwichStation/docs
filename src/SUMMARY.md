@@ -1,7 +1,7 @@
-Sandwich Station Wiki
+Sandwich Station Docs
 =====================
 
-[Sandwich Wiki Home](index.md)
+[Sandwich Docs Home](index.md)
 
 General Development
 ===================
