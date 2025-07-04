@@ -13,3 +13,5 @@ General Development
 
 - [Core Design](en/general-development/space-station-14/core-design.md)
   - [Design Principles](en/general-development/space-station-14/core-design/design-principles.md)
+
+- [Codebase Organization](en/general-development/codebase-info/codebase-organization.md)
