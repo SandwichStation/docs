@@ -420,3 +420,6 @@ FodyWeavers.xsd
 ##########################################################
 # End of "Default" .gitignore for Visual Studio template #
 ##########################################################
+
+#Dont upload pages not ready for upload
+unfixed-pages/*
