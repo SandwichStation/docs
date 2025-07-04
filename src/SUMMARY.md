@@ -1,7 +1,7 @@
 Sandwich Station Docs
 =====================
 
-[Sandwich Docs Home](index.md)
+[Sandwich Dev Docs](index.md)
 
 General Development
 ===================
