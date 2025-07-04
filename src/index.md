@@ -4,7 +4,6 @@
 
 - [:question: How do I code?](en/general-development/setup/howdoicode.md)
 - [:package: Setting up the Dev Environment](en/general-development/setup/setting-up-a-development-environment.md)
-- [:page_with_curl: Core Game Design](en/general-development/space-station-14/core-design.md)
 - [:chart_with_upwards_trend: Git for the SS14 Developer](en/general-development/setup/git-for-the-ss14-developer.md)
 
 
