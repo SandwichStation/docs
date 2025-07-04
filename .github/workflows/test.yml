@@ -3,6 +3,7 @@ name: Test mdBook Build & Upload Artifact
 on:
   # Run on only PR, no gh pages stuff
   pull_request:
+  workflow_dispatch:
 
 jobs:
   # Build job
