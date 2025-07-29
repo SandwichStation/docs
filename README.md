@@ -1,6 +1,6 @@
 # Sandwich Station Docs
 
-[The docs are currently live on this url](https://docs.b3ckdoor.com).
+[The docs are currently live on this url](https://docs.sandwich14.com).
 
 ## License and credit
 
