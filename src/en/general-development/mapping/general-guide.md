@@ -33,7 +33,7 @@ To test the map:
 
 # Setup
 ## With Development Environment
-A [development environment](../../../general-development/setup/setting-up-a-development-environment.md) and [howdoicode](../../../general-development/setup/howdoicode.md) are strongly recommended, so that you can keep your local mapping server up to date and submit [pull requests](../../../general-development/codebase-info/pull-request-guidelines.md).
+A [development environment](../../../general-development/setup/setting-up-a-development-environment.md) and [howdoicode](../../../general-development/setup/howdoicode.md) are strongly recommended, so that you can keep your local mapping server up to date and submit [pull requests](en/general-development/setup/git-for-the-ss14-developer.html#5-pushing-and-making-a-pr).
 
 ### Tools Build
 If you are using a development enviroment instead of just hosting a local server, make sure to use Tools instead of Debug/DebugOpt mode. This is because Debug adds artificial lag (making mapping unpleasant) and crashes more (having more assertions enabled).
