@@ -33,7 +33,7 @@ To test the map:
 
 # Setup
 ## With Development Environment
-A [development environment](en/general-development/setup/setting-up-a-development-environment.md) and [howdoicode](en/general-development/setup/howdoicode.md) are strongly recommended, so that you can keep your local mapping server up to date and submit [pull requests](en/general-development/setup/git-for-the-ss14-developer.html#5-pushing-and-making-a-pr).
+A [development environment](en/general-development/setup/setting-up-a-development-environment.md) and [howdoicode](../../setup/howdoicode.md) are strongly recommended, so that you can keep your local mapping server up to date and submit [pull requests](en/general-development/setup/git-for-the-ss14-developer.html#5-pushing-and-making-a-pr).
 
 ### Tools Build
 If you are using a development enviroment instead of just hosting a local server, make sure to use Tools instead of Debug/DebugOpt mode. This is because Debug adds artificial lag (making mapping unpleasant) and crashes more (having more assertions enabled).
@@ -48,7 +48,7 @@ dotnet run --project Content.Client --configuration Tools
 ```
 
 If you are using an IDE, there will be some other way of setting the configuration. For example, in VS there is simply a dropdown menu:
-![mapping-release-dropdown.png](en/assets/images/mapping/mapping-release-dropdown.png)
+![mapping-release-dropdown.png](../../assets/images/mapping/mapping-release-dropdown.png)
 
 # Workflow
 
